@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隱私權政策｜瑋瑋老師的撒野記事錄</title>
+<meta name="description" content="瑋瑋老師的撒野記事錄報名系統隱私權政策">
+<style>
+:root{
+  --bg:#f7f5ef;
+  --card:#ffffff;
+  --text:#2f3a33;
+  --muted:#66756b;
+  --line:#dfe6df;
+  --accent:#5d7a67;
+  --accent-soft:#e8efe8;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  line-height:1.8;
+}
+header{
+  background:rgba(247,245,239,.96);
+  border-bottom:1px solid var(--line);
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+.nav{
+  max-width:1080px;
+  margin:auto;
+  padding:14px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+.brand{font-weight:800;text-decoration:none;color:var(--text)}
+.menu{display:flex;gap:18px;flex-wrap:wrap}
+.menu a{color:var(--muted);text-decoration:none}
+.menu a:hover{color:var(--accent)}
+main{max-width:860px;margin:42px auto;padding:0 20px 60px}
+.hero{
+  background:var(--accent-soft);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:28px 30px;
+  margin-bottom:22px;
+}
+.hero h1{margin:0 0 8px;font-size:2rem}
+.hero p{margin:0;color:var(--muted)}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:28px 30px;
+  margin:18px 0;
+  box-shadow:0 8px 24px rgba(47,58,51,.04);
+}
+h2{font-size:1.25rem;margin:4px 0 12px}
+h3{font-size:1.05rem;margin:22px 0 8px}
+ul{padding-left:1.4rem}
+a{color:var(--accent)}
+.small{font-size:.92rem;color:var(--muted)}
+footer{
+  max-width:860px;
+  margin:0 auto;
+  padding:0 20px 36px;
+  color:var(--muted);
+  font-size:.9rem;
+}
+@media(max-width:650px){
+  .nav{align-items:flex-start;flex-direction:column}
+  .hero,.card{padding:22px 20px}
+  .hero h1{font-size:1.65rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="https://weiweipaigu.github.io/home/">瑋瑋老師的撒野記事錄</a>
+    <nav class="menu">
+      <a href="https://weiweipaigu.github.io/home/">Home</a>
+      <a href="https://weiweipaigu.github.io/calendar/">Calendar</a>
+      <a href="https://weiweipaigu.github.io/shopping/">Shopping</a>
+      <a href="https://weiweipaigu.github.io/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>隱私權政策</h1>
+    <p>Privacy Policy</p>
+  </section>
+
+  <section class="card">
+    <p>「瑋瑋老師的撒野記事錄」重視使用者的個人資料與隱私。本政策說明本網站及活動報名系統如何蒐集、使用、保存與保護相關資料。</p>
+    <p class="small">最後更新日期：2026 年 8 月 10 日</p>
+  </section>
+
+  <section class="card">
+    <h2>一、蒐集的資料</h2>
+    <p>當您使用活動報名功能時，我們可能蒐集：</p>
+    <ul>
+      <li>聯絡人姓名</li>
+      <li>電話號碼</li>
+      <li>E-mail</li>
+      <li>LINE ID</li>
+      <li>活動參加者姓名與生日</li>
+      <li>報名活動、報名人數與報名時間</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>二、資料使用目的</h2>
+    <p>上述資料僅用於與活動相關之必要用途，包括：</p>
+    <ul>
+      <li>處理活動報名與名額管理</li>
+      <li>寄送報名確認信</li>
+      <li>提供匯款、集合、行前提醒或活動異動資訊</li>
+      <li>就報名內容與參加者聯絡</li>
+      <li>處理取消、修改或其他報名相關需求</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>三、Google Gmail API 的使用</h2>
+    <p>本系統使用 Google Gmail API，由專用 Gmail 帳號寄送活動報名確認信及活動相關通知。</p>
+    <p>本系統所要求的 Google OAuth 權限限於：</p>
+    <ul>
+      <li><code>https://www.googleapis.com/auth/gmail.send</code> — 代表授權帳號寄送電子郵件。</li>
+    </ul>
+    <p>本系統不要求 Gmail 收件匣讀取、信件修改或刪除權限，也不使用 Gmail API 讀取使用者的郵件內容。</p>
+    <p>Google OAuth 憑證與 refresh token 僅保存在伺服器端受保護的環境中，不會放置於公開網站程式碼或 GitHub Pages 前端。</p>
+  </section>
+
+  <section class="card">
+    <h2>四、Google 使用者資料的使用與分享</h2>
+    <p>透過 Google API 取得的授權資料僅用於執行本系統的自動寄信功能。</p>
+    <ul>
+      <li>不出售 Google 使用者資料。</li>
+      <li>不將 Google 使用者資料提供給廣告商。</li>
+      <li>不使用 Google 使用者資料進行廣告或行銷剖析。</li>
+      <li>除提供必要的系統基礎設施與法令要求外，不會將 Google 使用者資料提供予無關第三方。</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>五、資料保存與安全</h2>
+    <p>活動報名資料儲存在受存取控制保護的後端資料庫中。管理功能僅開放予授權管理員使用。</p>
+    <p>我們會採取合理的技術與管理措施降低未經授權存取、修改、洩漏或遺失資料的風險。</p>
+  </section>
+
+  <section class="card">
+    <h2>六、資料刪除與更正</h2>
+    <p>如需查詢、更正或要求刪除您提供的活動報名資料，請透過下方聯絡方式與我們聯繫。我們會在合理範圍內協助處理。</p>
+  </section>
+
+  <section class="card">
+    <h2>七、第三方服務</h2>
+    <p>本網站及報名系統可能使用第三方基礎設施服務，例如 GitHub Pages、Supabase 與 Google Gmail API。這些服務各自有其隱私與安全政策。</p>
+  </section>
+
+  <section class="card">
+    <h2>八、政策更新</h2>
+    <p>本政策可能因服務調整、法律要求或技術變更而更新。最新版將公布於本頁面。</p>
+  </section>
+
+  <section class="card">
+    <h2>九、聯絡方式</h2>
+    <p>如對本隱私權政策或資料處理方式有任何疑問，請聯絡：</p>
+    <p><strong>瑋瑋老師的撒野記事錄</strong><br>
+    E-mail：<a href="mailto:weiweipaigu@gmail.com">weiweipaigu@gmail.com</a></p>
+  </section>
+</main>
+<footer>© 2026 瑋瑋老師的撒野記事錄</footer>
+</body>
+</html>
